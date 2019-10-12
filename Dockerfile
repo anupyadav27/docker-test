@@ -1,3 +1,3 @@
 FROM ubuntu:latest
-RUN yum update 
-RUN install iputils-ping
+RUN apt-get update 
+RUN apt-get install iputils-ping
